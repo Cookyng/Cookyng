@@ -1,4 +1,11 @@
 services:
-name : web app
-type : web
-environonment : node
+  - name: cookyng
+    type: web
+    runtime: node
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    autoDeploy: true
