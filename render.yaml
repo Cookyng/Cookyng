@@ -1,0 +1,4 @@
+services:
+name : web app
+type : web
+environonment : node
