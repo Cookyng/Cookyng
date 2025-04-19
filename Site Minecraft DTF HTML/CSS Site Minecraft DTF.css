@@ -1,0 +1,15 @@
+body {
+    background-image: url(Fond/Fond\ Site\ DTF.jpg);
+    font-family: Arial, sans-serif;
+    color :white
+}
+    
+.banniere1 {
+    background-image: url(Fond/Bannière\ Header.jpg);
+    height: 100px;
+}
+
+.banniere2 {
+    background-image: url(Fond/Bannière\ Footer.jpg);
+    height: 100px;
+}
